@@ -7,7 +7,7 @@ Given a web endpoint "\GET", create an API prepare an application that will rece
 otherwise the provided integer should be returned. 
 ·                The output of the API should be a properly formatted JSON file
 
-# Solution
+## Solution
 
 Spring boot Rest service created to implement this Challenge
 
@@ -16,12 +16,17 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Java
+
 SpringBoot
+
+
 
 ### Installing
 
 Run the following commands at shell
+
 mvnw clean package
+
 java -jar target\ex2-0.0.1-SNAPSHOT.jar
 
 The Rest service should be runnning at port 8083
@@ -29,9 +34,13 @@ The Rest service should be runnning at port 8083
 ## Running the tests
 
 The tests include:
+
 http://localhost:8083/index?i=7
+
 http://localhost:8083/index?i=9
+
 http://localhost:8083/index?i=63
+
 http://localhost:8083/index?i=1
 
 
